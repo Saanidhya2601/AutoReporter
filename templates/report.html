@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Slate & Indigo Theme for reduced cognitive load */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #F8FAFC; color: #1E293B; padding: 40px; }
+        h1 { color: #312E81; border-bottom: 2px solid #4F46E5; padding-bottom: 10px; font-weight: 600; }
+        h2 { color: #4F46E5; margin-top: 35px; font-weight: 500; }
+        
+        /* Clean, borderless tables */
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background-color: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+        th { background-color: #312E81; color: white; padding: 14px; text-align: left; font-weight: 500; }
+        td { padding: 12px 14px; border-bottom: 1px solid #E2E8F0; }
+        
+        /* Cool slate alternating rows */
+        tr:nth-child(even) { background-color: #F1F5F9; } 
+    </style>
+</head>
+<body>
+    <h1>Workforce Productivity & Time Allocation Report</h1>
+    <p>Automated insights generated for HR management and operational review.</p>
+    
+    <h2>Time Allocation by Department</h2>
+    {{ time_table }}
+
+    <h2>Focus Trends by Role</h2>
+    {{ focus_table }}
+</body>
+</html>

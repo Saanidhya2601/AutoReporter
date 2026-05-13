@@ -1,0 +1,7 @@
+employee_id,department,role,logged_hours,focus_score
+101,Engineering,Frontend Dev,42.5,88
+102,Engineering,Backend Dev,39.0,92
+103,Design,UI/UX Designer,40.0,85
+104,HR,Recruiter,35.5,78
+105,Engineering,Frontend Dev,41.0,89
+106,Design,Product Manager,45.0,80
